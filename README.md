@@ -2,23 +2,23 @@
 
 Este projeto foi desenvolvido em .NET Core e PostgreSQL, projetado como um sistema de boletos e bancos.
 
-## Configuração
+## ConfiguraÃ§Ã£o
 
-Certifique-se de ter o [.NET Core SDK](https://dotnet.microsoft.com/download) e o [SQL Oracle](https://www.oracle.com/br/database/sqldeveloper/) instalado em sua máquina.
+Certifique-se de ter o [.NET Core SDK](https://dotnet.microsoft.com/download) e o [SQL Oracle](https://www.oracle.com/br/database/sqldeveloper/) instalado em sua mÃ¡quina.
 
-1. Clone este repositório:
+1. Clone este repositÃ³rio:
 
    ```
-   https://github.com/tallesvini/gerenciador-boletos.git
+   https://github.com/tallesvini/GerenciadorBoletos.git
    ```
 
-2. Acesse o diretório do projeto:
+2. Acesse o diretÃ³rio do projeto:
 
    ```
    cd nome-do-repositorio
    ```
 
-3. Abra o arquivo `appsettings.json` dentro do projeto `BoletoProject.WebApi` e configure as informações de conexão com o seu banco de dados PostgreSQL:
+3. Abra o arquivo `appsettings.json` dentro do projeto `BoletoProject.WebApi` e configure as informaÃ§Ãµes de conexÃ£o com o seu banco de dados PostgreSQL:
 
    ```json
       "ConnectionStrings": {
@@ -26,10 +26,10 @@ Certifique-se de ter o [.NET Core SDK](https://dotnet.microsoft.com/download) e 
       }
    ```
 
-4. Execute as migrações para criar as tabelas no banco de dados:
+4. Execute as migraÃ§Ãµes para criar as tabelas no banco de dados:
 
     - Abra o `Console do Gerenciador de Pacotes`.
-    - No campo `Projeto padrão`, selecione o projeto `BoletoProject.Infra.Data`.
+    - No campo `Projeto padrÃ£o`, selecione o projeto `BoletoProject.Infra.Data`.
     - Por fim, execute o comando abaixo:
         ```
         update-database
@@ -45,38 +45,38 @@ Certifique-se de ter o [.NET Core SDK](https://dotnet.microsoft.com/download) e 
 
 ## Como Contribuir
 
-Se você deseja contribuir para este projeto, siga as etapas abaixo:
+Se vocÃª deseja contribuir para este projeto, siga as etapas abaixo:
 
-1. Faça um fork deste repositório e clone-o em sua máquina local.
-2. Crie um novo branch para suas alterações: `git checkout -b minha-branch`.
-3. Realize as alterações desejadas e commit-as: `git commit -m 'Minhas alterações'`.
-4. Envie suas alterações para o branch principal do repositório forkado: `git push origin minha-branch`.
-5. Abra um pull request no repositório original, descrevendo as alterações propostas.
+1. FaÃ§a um fork deste repositÃ³rio e clone-o em sua mÃ¡quina local.
+2. Crie um novo branch para suas alteraÃ§Ãµes: `git checkout -b minha-branch`.
+3. Realize as alteraÃ§Ãµes desejadas e commit-as: `git commit -m 'Minhas alteraÃ§Ãµes'`.
+4. Envie suas alteraÃ§Ãµes para o branch principal do repositÃ³rio forkado: `git push origin minha-branch`.
+5. Abra um pull request no repositÃ³rio original, descrevendo as alteraÃ§Ãµes propostas.
 
-## Licença
+## LicenÃ§a
 
-Este projeto está licenciado sob a **MIT License**.
+Este projeto estÃ¡ licenciado sob a **MIT License**.
 # Boleto/Banco - Api
 
 Este projeto foi desenvolvido em .NET Core e PostgreSQL, projetado como um sistema de boletos e bancos.
 
-## Configuração
+## ConfiguraÃ§Ã£o
 
-Certifique-se de ter o [.NET Core SDK](https://dotnet.microsoft.com/download) e o [SQL Oracle](https://www.oracle.com/br/database/sqldeveloper/) instalado em sua máquina.
+Certifique-se de ter o [.NET Core SDK](https://dotnet.microsoft.com/download) e o [SQL Oracle](https://www.oracle.com/br/database/sqldeveloper/) instalado em sua mÃ¡quina.
 
-1. Clone este repositório:
+1. Clone este repositÃ³rio:
 
    ```
    https://github.com/tallesvini/gerenciador-boletos.git
    ```
 
-2. Acesse o diretório do projeto:
+2. Acesse o diretÃ³rio do projeto:
 
    ```
    cd nome-do-repositorio
    ```
 
-3. Abra o arquivo `appsettings.json` dentro do projeto `BoletoProject.WebApi` e configure as informações de conexão com o seu banco de dados PostgreSQL:
+3. Abra o arquivo `appsettings.json` dentro do projeto `BoletoProject.WebApi` e configure as informaÃ§Ãµes de conexÃ£o com o seu banco de dados PostgreSQL:
 
    ```json
       "ConnectionStrings": {
@@ -84,10 +84,10 @@ Certifique-se de ter o [.NET Core SDK](https://dotnet.microsoft.com/download) e 
       }
    ```
 
-4. Execute as migrações para criar as tabelas no banco de dados:
+4. Execute as migraÃ§Ãµes para criar as tabelas no banco de dados:
 
     - Abra o `Console do Gerenciador de Pacotes`.
-    - No campo `Projeto padrão`, selecione o projeto `BoletoProject.Infra.Data`.
+    - No campo `Projeto padrÃ£o`, selecione o projeto `BoletoProject.Infra.Data`.
     - Por fim, execute o comando abaixo:
         ```
         update-database
@@ -103,72 +103,14 @@ Certifique-se de ter o [.NET Core SDK](https://dotnet.microsoft.com/download) e 
 
 ## Como Contribuir
 
-Se você deseja contribuir para este projeto, siga as etapas abaixo:
+Se vocÃª deseja contribuir para este projeto, siga as etapas abaixo:
 
-1. Faça um fork deste repositório e clone-o em sua máquina local.
-2. Crie um novo branch para suas alterações: `git checkout -b minha-branch`.
-3. Realize as alterações desejadas e commit-as: `git commit -m 'Minhas alterações'`.
-4. Envie suas alterações para o branch principal do repositório forkado: `git push origin minha-branch`.
-5. Abra um pull request no repositório original, descrevendo as alterações propostas.
+1. FaÃ§a um fork deste repositÃ³rio e clone-o em sua mÃ¡quina local.
+2. Crie um novo branch para suas alteraÃ§Ãµes: `git checkout -b minha-branch`.
+3. Realize as alteraÃ§Ãµes desejadas e commit-as: `git commit -m 'Minhas alteraÃ§Ãµes'`.
+4. Envie suas alteraÃ§Ãµes para o branch principal do repositÃ³rio forkado: `git push origin minha-branch`.
+5. Abra um pull request no repositÃ³rio original, descrevendo as alteraÃ§Ãµes propostas.
 
-## Licença
+## LicenÃ§a
 
-Este projeto está licenciado sob a **MIT License**.
-# Boleto/Banco - Api
-
-Este projeto foi desenvolvido em .NET Core e PostgreSQL, projetado como um sistema de boletos e bancos.
-
-## Configuração
-
-Certifique-se de ter o [.NET Core SDK](https://dotnet.microsoft.com/download) e o [SQL Oracle](https://www.oracle.com/br/database/sqldeveloper/) instalado em sua máquina.
-
-1. Clone este repositório:
-
-   ```
-   https://github.com/tallesvini/gerenciador-boletos.git
-   ```
-
-2. Acesse o diretório do projeto:
-
-   ```
-   cd nome-do-repositorio
-   ```
-
-3. Abra o arquivo `appsettings.json` dentro do projeto `BoletoProject.WebApi` e configure as informações de conexão com o seu banco de dados PostgreSQL:
-
-   ```json
-      "ConnectionStrings": {
-         "DefaultConnection": "User ID=USER;Password=PASSWORD;Host=HOST;Port=PORT;Database=NAME_DB;"
-      }
-   ```
-
-4. Execute as migrações para criar as tabelas no banco de dados:
-
-    - Abra o `Console do Gerenciador de Pacotes`.
-    - No campo `Projeto padrão`, selecione o projeto `BoletoProject.Infra.Data`.
-    - Por fim, execute o comando abaixo:
-        ```
-        update-database
-        ```
-
-5. Inicie o servidor:
-
-    - No [Visual Studio 2022](https://visualstudio.microsoft.com/pt-br/), rode localmente seu projeto (seja ele via IIS ou HTTP)
-
-## Requisitos de Sistema
-
-- .NET Core SDK 6 ou superior.
-
-## Como Contribuir
-
-Se você deseja contribuir para este projeto, siga as etapas abaixo:
-
-1. Faça um fork deste repositório e clone-o em sua máquina local.
-2. Crie um novo branch para suas alterações: `git checkout -b minha-branch`.
-3. Realize as alterações desejadas e commit-as: `git commit -m 'Minhas alterações'`.
-4. Envie suas alterações para o branch principal do repositório forkado: `git push origin minha-branch`.
-5. Abra um pull request no repositório original, descrevendo as alterações propostas.
-
-## Licença
-
-Este projeto está licenciado sob a **MIT License**.
+Este projeto estÃ¡ licenciado sob a **MIT License**.
